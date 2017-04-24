@@ -140,6 +140,7 @@ footer{
   margin-left: 15%;
   margin-right: 20%;
   line-height: 2;
+  text-align: justify;
 }
 .text-info{
   padding-top: 100px;
