@@ -77,7 +77,7 @@ nav{
 }
 .foto{
   position: relative;
-  width: 35px;
+  /*width: 35px;*/
   border-radius: 50px;
 }
 .logo{
@@ -85,9 +85,6 @@ nav{
   position: relative;
   background-color: grey;
   vertical-align: middle;
-}
-.search{
-
 }
 .edit{
   color: #2faa75;
@@ -124,9 +121,6 @@ footer{
   color: #00ab6b;
   position: relative;
 }
-.heart:active{
-  /*color: transparent;*/
-}
 .twiter-footer{
   position: relative;
 }
@@ -139,4 +133,21 @@ footer{
   font-size: .9rem;
   font-weight: bold;
   color: #333333;
+}
+.content{
+  /*position: relative;*/
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 20%;
+  line-height: 2;
+}
+.text-info{
+  padding-top: 100px;
+  font-family: 'Roboto';
+  color: #a6a8ab;
+  font-size:.9rem;
+  font-style:
+}
+.content i{
+  font-style: italic;
 }
