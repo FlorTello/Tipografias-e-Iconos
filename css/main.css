@@ -36,6 +36,7 @@ nav{
   padding: 7px;
 /*  padding-right: 21px;*/
   vertical-align: middle;
+  /*display: inline-block;*/
   /*padding-right: 21px;*/
 }
 .facebook:hover{
@@ -56,8 +57,7 @@ nav{
   background-color: #a6a8ab;
   position: absolute;
   margin-top: 14px;
-  /*margin-left:  7px;*/
-    vertical-align: middle;
+  vertical-align: middle;
 }
 .counter{
   position: relative;
@@ -95,4 +95,48 @@ nav{
 }
 .header-rigth > span:hover{
   color: #04f98f;
+}
+footer{
+  width: 100%;
+  height: 63px;
+  border-top:solid 1px #f5f4f9;
+  bottom: 0;
+  position: absolute;
+}
+.footer-left{
+  /*float: left;*/
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 14px;
+}
+.footer-rigth{
+  /*padding: 10px;*/
+  position: absolute;
+  right: 14px;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.footer-rigth > *{
+  display: inline-block;
+}
+.heart{
+  /*color: transparent;*/
+  color: #00ab6b;
+  position: relative;
+}
+.heart:active{
+  /*color: transparent;*/
+}
+.twiter-footer{
+  position: relative;
+}
+.line-footer{
+  color: #a6a8ab;
+}
+.next{
+  position: relative;
+  /*width: 50px;*/
+  font-size: .9rem;
+  font-weight: bold;
+  color: #333333;
 }
