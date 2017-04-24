@@ -87,9 +87,6 @@ nav{
   background-color: grey;
   vertical-align: middle;
 }
-.search{
-
-}
 .edit{
   color: #2faa75;
   font-size: small;
@@ -105,13 +102,11 @@ footer{
   position: absolute;
 }
 .footer-left{
-  /*float: left;*/
   position: absolute;
   font-size: 1.5rem;
   padding: 14px;
 }
 .footer-rigth{
-  /*padding: 10px;*/
   position: absolute;
   right: 14px;
   font-size: 1.5rem;
@@ -121,7 +116,6 @@ footer{
   display: inline-block;
 }
 .heart{
-  /*color: transparent;*/
   color: #00ab6b;
   position: relative;
 }
@@ -136,7 +130,6 @@ footer{
 }
 .next{
   position: relative;
-  /*width: 50px;*/
   font-size: .9rem;
   font-weight: bold;
   color: #333333;
